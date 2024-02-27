@@ -1,0 +1,23 @@
+.dashboard-card {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    padding: 10px;
+
+    /* background-color: #f9f9f9; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+}
+
+.dashboard-card:hover {
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+.counter-number {
+    font-size: 60px;
+}
